@@ -103,5 +103,6 @@ is_bingo = bingo_component(
 if is_bingo == True:
     st.balloons()
 
-st.button("Get a new card!", on_click=shuffle_card)
+if st.button("Get a new card!"):
+    shuffle_card()
 st.caption(f"Streamilt v:{st.__version__}")
