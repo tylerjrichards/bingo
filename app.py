@@ -99,9 +99,9 @@ is_bingo = bingo_component(
     center_piece=center_piece, bingo_options=bingo_options, key="bingo_time"
 )
 
-st.button("Get a new card!", on_click=shuffle_card)
-st.caption(f"Streamilt v:{st.__version__}")
-
 # If the custom component returns true, then show Win Animation!
 if is_bingo == True:
     st.balloons()
+
+st.button("Get a new card!", on_click=shuffle_card)
+st.caption(f"Streamilt v:{st.__version__}")
