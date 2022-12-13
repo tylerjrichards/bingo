@@ -21,6 +21,9 @@ default_options = [
     "yet another hot take on Jupyter Notebooks",
     "Modern Data Stack",
     "someone says 'data is the new oil'",
+    "data as a product",
+    "data problems are actually people problems",
+    "memes in place of slides",
 ]
 options = "\n".join(default_options)
 
