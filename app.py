@@ -24,6 +24,7 @@ default_options = [
     "data as a product",
     "data problems are actually people problems",
     "memes in place of slides",
+    "a wild 3 string band appears",
 ]
 options = "\n".join(default_options)
 
